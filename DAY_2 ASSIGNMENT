@@ -1,0 +1,46 @@
+LIST = [20, 40, 20, 25, 12, 34, 44, 99, 1, 7]
+>>> print(LIST)
+[20, 40, 20, 25, 12, 34, 44, 99, 1, 7]
+
+>>> LIST.append(69)
+>>> print(LIST)
+[20, 40, 20, 25, 12, 34, 44, 99, 1, 7, 69]
+
+>>> LIST.append(99)
+>>> print(LIST)
+[20, 40, 20, 25, 12, 34, 44, 99, 1, 7, 69, 99]
+
+>>> LIST.pop(3)
+25
+
+>>> LIST.pop(5)
+44
+
+>>> LIST.pop(2)
+20
+
+>>> print(LIST)
+[20, 40, 12, 34, 99, 1, 7, 69, 99]
+
+>>> print(LIST[2:6])
+[12, 34, 99, 1]
+
+>>> print(LIST[3:-1])
+[34, 99, 1, 7, 69]
+
+>>> LIST[3:-1]
+[34, 99, 1, 7, 69]
+
+>>> LIST[4:-5]
+[]
+>>> my_dict = {"COLLEGE" : ['VIT', 'VIIT', 'VU'], "FEES" : [1000000, 10000, 100]}
+>>> print(my_dict)
+{'COLLEGE': ['VIT', 'VIIT', 'VU'], 'FEES': [1000000, 10000, 100]}
+
+>>> my_dict["VALUE"] = [0, 10, 100]
+>>> print(my_dict)
+{'COLLEGE': ['VIT', 'VIIT', 'VU'], 'FEES': [1000000, 10000, 100], 'VALUE': [0, 10, 100]}
+
+>>> del my_dict["FEES"]
+>>> print(my_dict)
+{'COLLEGE': ['VIT', 'VIIT', 'VU'], 'VALUE': [0, 10, 100]}
